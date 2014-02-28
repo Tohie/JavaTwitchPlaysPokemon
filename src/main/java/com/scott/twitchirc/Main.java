@@ -16,7 +16,7 @@ public class Main {
         commands.put("down", "d");
 
         try {
-            TwitchIRC irc = new TwitchIRC("Tohie", "vgld8t1i4k1rcuxpqicl10usskt3gq");
+            TwitchIRC irc = new TwitchIRC("Your nick", "Your oauth token");
             irc.connectToChannel("#twitchplayspokemon");
             String message;
             while (true) {
